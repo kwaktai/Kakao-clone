@@ -8,11 +8,12 @@
       src="https://kit.fontawesome.com/041e62fe4f.js"
       crossorigin="anonymous"
     ></script>
-    <title>Kakao Chat</title>
+    <title>Kakao : Chat</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
+        <!-- 첫째줄 -->
         <span class="status-bar__clock">13:54</span>
       </div>
       <div class="status-bar__column">
@@ -22,5 +23,65 @@
         <i class="fas fa-battery-three-quarters"></i>
       </div>
     </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Chats</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="far fa-comment"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <main class="chats">
+      <ul class="chats__chat-list">
+        <li class="chats__chat chat">
+          <div class="chat__column">
+            <img class="chat__avatat" src="image/tai.jpg" />
+            <div class="chat__connet">
+              <span class="chat__username">
+                Tai
+              </span>
+              <span class="chat__preview">
+                Hellow
+              </span>
+            </div>
+
+            <div class="chat__column">
+              <span class="chat__timestamp">Yesterday</span>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-time">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-time">
+          <a href="index.html" class="nav__list-link">
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-time">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-time">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
